@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Bracets",
+    "slug": "Bracets",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Разрешите Bracets доступ к вашим фотографиям.",
+          "savePhotosPermission": "Разрешите Bracets сохранять фотографии.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./src/assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hitheed.Bracets"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ded947a3-5b5f-4971-8d1d-3b4d62f00d1c"
+      }
+    }
+  }
+}
